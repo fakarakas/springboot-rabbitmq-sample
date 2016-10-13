@@ -61,11 +61,10 @@ user/pwd : darty/darty or admin/admin
 
 * The use case
 
-	step 1 : order-creator creates orders
-	step 2 : order-validator validates the orders
-	step 3 : order-finalizer finalize the orders
-	
-	step 4 : we are adding a new consumer for sending emails : order-emailer
+	* step 1 : order-creator creates orders	
+	* step 2 : order-validator validates the orders	
+	* step 3 : order-finalizer finalize the orders	
+	* step 4 : we are adding a new consumer for sending emails : order-emailer
 	
 	order-injector is used to inject order creation messages
 
