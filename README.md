@@ -48,9 +48,13 @@ user/pwd : darty/darty or admin/admin
 	In your local maven repository or project target folder launch:
 
 	nohup java -jar order-creator-0.0.1-SNAPSHOT.jar&
+	
 	nohup java -jar order-validator-0.0.1-SNAPSHOT.jar&
+	
 	nohup java -jar order-finalizer-0.0.1-SNAPSHOT.jar&
+	
 	nohup java -jar order-emailer-0.0.1-SNAPSHOT.jar&
+	
 	nohup java -jar order-injector-0.0.1-SNAPSHOT.jar&
 
 	to kill all : pkill -f order*jar
